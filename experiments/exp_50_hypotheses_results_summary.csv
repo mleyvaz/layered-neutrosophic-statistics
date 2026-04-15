@@ -1,0 +1,14 @@
+metric,value
+n_hypotheses,50
+ns_accuracy,0.8800
+ns_ci_low,0.7620
+ns_ci_high,0.9438
+classical_accuracy,0.4400
+interval_accuracy,0.8000
+kappa_12,0.6970
+kappa_13,0.8602
+kappa_23,0.7778
+kappa_mean,0.7783
+mcnemar_chi2,16.9615
+mcnemar_p,3.8145e-05
+paraconsistent,8
