@@ -11,13 +11,18 @@
  *        - Responses Sheet URL (respuestas en tiempo real; exportar como xlsx)
  *
  * DISEÑO
- *   25 hipótesis balanceadas por zona target:
+ *   30 hipótesis balanceadas por zona target:
  *     - 10 Contradiction  (evidencia simultánea pro y contra)
- *     - 8  Ignorance      (sin evidencia; predicciones del futuro cercano)
- *     - 3  Consensus      (ancla / attention check)
- *     - 4  Ambiguity      (evidencia emergente o subespecificada)
+ *     - 10 Ignorance      (sin evidencia; predicciones del futuro cercano)
+ *     - 5  Consensus      (anclas / attention check)
+ *     - 5  Ambiguity      (evidencia emergente o subespecificada)
  *   Cada hipótesis: 3 preguntas en escala lineal 0–10 (T, I, F).
- *   75 ítems totales.  Duración esperada para el rater: 10–15 minutos.
+ *   90 ítems totales.  Duración esperada para el rater: 13–18 minutos.
+ *
+ *   Este estudio es STANDALONE: los raters son independientes de la Ronda 1,
+ *   por lo que no se busca replicación rater-a-rater sino un diseño
+ *   zone-balanced desde cero.  Paper B reporta Ronda 2 como estudio principal
+ *   y Ronda 1 como piloto / análisis de sensibilidad.
  *
  *   Las respuestas se guardan automáticamente en una hoja de cálculo vinculada
  *   (misma estructura que tu formulario Ronda 1).  El script de análisis
@@ -68,6 +73,10 @@ const HYPOTHESES = [
     text: '¿Se adoptará una constitución federal única en la Unión Europea antes del año 2035?' },
   { zone_target: 'Ignorance',
     text: '¿El Bitcoin superará el valor de USD 500 000 antes del año 2030?' },
+  { zone_target: 'Ignorance',
+    text: '¿Se detectarán partículas supersimétricas en el LHC antes del año 2030?' },
+  { zone_target: 'Ignorance',
+    text: '¿La edición genética con CRISPR curará una enfermedad hereditaria prevalente antes del año 2030?' },
 
   // ------ CONSENSUS target: anclas / attention checks ------
   { zone_target: 'Consensus',
@@ -76,6 +85,10 @@ const HYPOTHESES = [
     text: '¿Las vacunas de ARN mensajero reducen el riesgo de hospitalización por COVID-19 en adultos?' },
   { zone_target: 'Consensus',
     text: '¿La actividad física regular reduce la incidencia de diabetes tipo 2?' },
+  { zone_target: 'Consensus',
+    text: '¿La evolución por selección natural es el mecanismo central de la diversificación biológica?' },
+  { zone_target: 'Consensus',
+    text: '¿El cambio climático reciente es causado principalmente por actividad humana (emisiones de gases de efecto invernadero)?' },
 
   // ------ AMBIGUITY target: evidencia emergente o subespecificada ------
   { zone_target: 'Ambiguity',
@@ -86,6 +99,8 @@ const HYPOTHESES = [
     text: '¿El consumo moderado de cafeína durante el embarazo afecta negativamente el desarrollo fetal?' },
   { zone_target: 'Ambiguity',
     text: '¿Las dietas con ayuno intermitente producen mejoras metabólicas superiores a la restricción calórica continua?' },
+  { zone_target: 'Ambiguity',
+    text: '¿La exposición a contaminantes atmosféricos (PM2.5) a niveles actuales urbanos acelera el deterioro cognitivo en adultos mayores?' },
 ];
 
 
@@ -100,7 +115,7 @@ const FORM_INTRO = (
   'Los tres valores son independientes. Puede asignar, por ejemplo, T = 7 y F = 6 ' +
   'si existe evidencia legítima a favor y en contra. No es necesario que T + I + F ' +
   'sumen un valor específico.\n\n' +
-  'El formulario tiene 25 hipótesis × 3 preguntas = 75 ítems. Tiempo estimado: 10–15 minutos. ' +
+  'El formulario tiene 30 hipótesis × 3 preguntas = 90 ítems. Tiempo estimado: 13–18 minutos. ' +
   'Sus respuestas son anónimas y se tratarán agregadamente.'
 );
 

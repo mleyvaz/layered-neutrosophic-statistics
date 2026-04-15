@@ -6,13 +6,18 @@ anotación con expertos independientes.
 
 ## Diseño
 
+Estudio STANDALONE con raters independientes de la Ronda 1. No se busca
+replicación rater-a-rater; se prioriza diseño zone-balanced desde cero.
+Paper B reporta Ronda 2 como estudio principal y Ronda 1 como piloto /
+análisis de sensibilidad.
+
 | Zona objetivo | # hipótesis | Propósito |
 |---|---|---|
 | Contradiction | 10 | Probar el schema NS en casos con evidencia legítima a favor y en contra (T alto + F alto) |
-| Ignorance | 8 | Probar el schema NS en casos sin evidencia (T bajo, F bajo, I alto o 0) |
-| Consensus | 3 | Anclas / attention checks (lavarse manos-equivalentes) |
-| Ambiguity | 4 | Completar cobertura con evidencia emergente |
-| **Total** | **25** | 75 ítems · 10–15 min por rater |
+| Ignorance | 10 | Probar el schema NS en casos sin evidencia (T bajo, F bajo; I alto o 0) |
+| Consensus | 5 | Anclas + attention checks (VIH→SIDA, evolución, cambio climático antropogénico…) |
+| Ambiguity | 5 | Evidencia emergente o subespecificada (mindfulness, vitamina D, PM2.5) |
+| **Total** | **30** | 90 ítems · 13–18 min por rater |
 
 ## Uso
 
@@ -35,8 +40,17 @@ anotación con expertos independientes.
 
 ## Plan de reclutamiento sugerido
 
-- Compartir con los 17 expertos calibrados de la Ronda 1 (ya demostraron
-  comprender el schema) → expected ~13–14 respuestas
-- Agregar 15–20 expertos nuevos vía redes académicas (email) →
-  expected ~25–30 respuestas en total
-- Cerrar ronda a las 3 semanas del primer envío
+- Reclutar ~30 expertos nuevos vía redes académicas (email o LinkedIn).
+  Enviar en 2 oleadas (15 + 15) separadas por 1 semana para controlar efectos
+  temporales (noticias cambiando evidencia durante la recolección).
+- Recordatorio único a la semana del primer envío (aumenta respuestas ~50%).
+- Cerrar ronda a las 3 semanas del primer envío.
+
+## Meta-análisis esperado tras Ronda 2
+
+- Poder ≥ 0.80 para detectar diferencia NS vs Interval **dentro de cada zona**
+  con n=30 expertos y ~8 hipótesis por zona (McNemar + stratified).
+- Las Contradiction y Ignorance son zonas donde Interval no puede distinguir
+  pero NS sí — ahí se demuestra la ventaja real del framework.
+- Comparación entre rondas (17 exp/30 hyp vs 30 exp/30 hyp balanceado) sirve
+  como sensitivity analysis, no como replicación.
