@@ -1,0 +1,661 @@
+expert_id,hypothesis_id,hypothesis,T_0_10,I_0_10,F_0_10,T,I,F,zone,paraconsistent
+1,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,1.0,10.0,1.0,0.1,1.0,Contradiction,1
+1,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,1.0,10.0,1.0,0.1,1.0,Contradiction,1
+1,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,10.0,1.0,10.0,1.0,0.1,1.0,Contradiction,1
+1,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,10.0,1.0,9.0,1.0,0.1,0.9,Contradiction,1
+1,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+1,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+2,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,9.0,3.0,5.0,0.9,0.3,0.5,Contradiction,1
+2,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,7.0,9.0,0.9,0.7,0.9,Ambiguity,1
+2,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,9.0,9.0,9.0,0.9,0.9,0.9,Ambiguity,1
+2,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,9.0,4.0,1.0,0.9,0.4,0.1,Ambiguity,0
+2,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,9.0,4.0,2.0,0.9,0.4,0.2,Ambiguity,1
+2,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,8.0,2.0,3.0,0.8,0.2,0.3,Ignorance,1
+2,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,8.0,2.0,1.0,0.8,0.2,0.1,Consensus,0
+2,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,9.0,2.0,4.0,0.9,0.2,0.4,Contradiction,1
+2,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+2,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,8.0,3.0,1.0,0.8,0.3,0.1,Consensus,0
+2,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+2,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,9.0,1.0,2.0,0.9,0.1,0.2,Consensus,1
+2,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+2,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,8.0,4.0,2.0,0.8,0.4,0.2,Ambiguity,0
+2,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,3.0,3.0,0.7,0.3,0.3,Ignorance,0
+2,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+2,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,8.0,4.0,2.0,0.8,0.4,0.2,Ambiguity,0
+2,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,8.0,2.0,1.0,0.8,0.2,0.1,Consensus,0
+2,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,7.0,3.0,1.0,0.7,0.3,0.1,Consensus,0
+2,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,10.0,4.0,1.0,1.0,0.4,0.1,Ambiguity,1
+2,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,9.0,2.0,4.0,0.9,0.2,0.4,Contradiction,1
+2,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),6.0,2.0,2.0,0.6,0.2,0.2,Consensus,0
+2,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+2,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+2,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,9.0,3.0,1.0,0.9,0.3,0.1,Consensus,0
+2,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+2,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,8.0,2.0,2.0,0.8,0.2,0.2,Consensus,0
+2,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,9.0,5.0,2.0,0.9,0.5,0.2,Ambiguity,1
+2,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,3.0,2.0,1.0,0.3,0.2,Consensus,1
+2,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,9.0,6.0,2.0,0.9,0.6,0.2,Ambiguity,1
+3,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,8.0,3.0,0.0,0.8,0.3,0.0,Consensus,0
+3,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,9.0,5.0,1.0,0.9,0.5,0.1,Ambiguity,0
+3,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,4.0,1.0,1.0,0.4,0.1,Ambiguity,1
+3,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,9.0,6.0,1.0,0.9,0.6,0.1,Ambiguity,0
+3,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,9.0,6.0,2.0,0.9,0.6,0.2,Ambiguity,1
+3,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+3,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,9.0,6.0,1.0,0.9,0.6,0.1,Ambiguity,0
+3,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,9.0,6.0,1.0,0.9,0.6,0.1,Ambiguity,0
+3,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,9.0,5.0,3.0,0.9,0.5,0.3,Ambiguity,1
+3,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,9.0,6.0,1.0,0.9,0.6,0.1,Ambiguity,0
+3,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,10.0,6.0,3.0,1.0,0.6,0.3,Ambiguity,1
+3,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,10.0,6.0,3.0,1.0,0.6,0.3,Ambiguity,1
+3,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+3,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,10.0,6.0,0.0,1.0,0.6,0.0,Ambiguity,0
+3,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,6.0,0.0,1.0,0.6,0.0,Ambiguity,0
+3,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,7.0,1.0,1.0,0.7,0.1,Ambiguity,1
+3,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,10.0,5.0,1.0,1.0,0.5,0.1,Ambiguity,1
+3,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+3,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,5.0,2.0,1.0,0.5,0.2,Ambiguity,1
+3,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+3,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+3,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,10.0,7.0,1.0,1.0,0.7,0.1,Ambiguity,1
+3,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,7.0,0.0,1.0,0.7,0.0,Ambiguity,0
+3,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,7.0,2.0,1.0,0.7,0.2,Ambiguity,1
+4,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,9.0,5.0,0.0,0.9,0.5,0.0,Ambiguity,0
+4,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,2.0,0.0,0.9,0.2,0.0,Consensus,0
+4,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,2.0,0.0,1.0,0.2,0.0,Consensus,0
+4,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+4,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,7.0,1.0,1.0,0.7,0.1,Ambiguity,1
+4,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,0.0,1.0,1.0,0.0,0.1,Consensus,1
+4,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,8.0,3.0,0.0,0.8,0.3,0.0,Consensus,0
+4,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+4,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,3.0,1.0,1.0,0.3,0.1,Consensus,1
+4,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+4,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,9.0,2.0,0.0,0.9,0.2,0.0,Consensus,0
+4,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,8.0,3.0,2.0,0.8,0.3,0.2,Consensus,0
+4,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,1.0,1.0,1.0,0.1,0.1,Consensus,1
+4,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+4,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,8.0,4.0,2.0,0.8,0.4,0.2,Ambiguity,0
+4,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,10.0,3.0,0.0,1.0,0.3,0.0,Consensus,0
+4,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,9.0,1.0,1.0,0.9,0.1,0.1,Consensus,0
+4,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+4,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+4,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+4,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,7.0,3.0,1.0,0.7,0.3,0.1,Consensus,0
+4,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),10.0,2.0,0.0,1.0,0.2,0.0,Consensus,0
+4,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,9.0,4.0,1.0,0.9,0.4,0.1,Ambiguity,0
+4,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,3.0,1.0,1.0,0.3,0.1,Consensus,1
+4,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,9.0,5.0,0.0,0.9,0.5,0.0,Ambiguity,0
+4,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,9.0,5.0,2.0,0.9,0.5,0.2,Ambiguity,1
+4,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,9.0,5.0,2.0,0.9,0.5,0.2,Ambiguity,1
+4,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,9.0,3.0,0.0,0.9,0.3,0.0,Consensus,0
+4,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+4,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+5,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,8.0,8.0,8.0,0.8,0.8,0.8,Ambiguity,1
+5,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,8.0,8.0,8.0,0.8,0.8,0.8,Ambiguity,1
+5,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,10.0,10.0,1.0,1.0,1.0,Ambiguity,1
+5,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+5,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+5,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,8.0,6.0,5.0,0.8,0.6,0.5,Ambiguity,1
+5,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,7.0,6.0,7.0,0.7,0.6,0.7,Ambiguity,1
+5,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,2.0,8.0,9.0,0.2,0.8,0.9,Ambiguity,1
+5,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,8.0,6.0,8.0,0.8,0.6,0.8,Ambiguity,1
+5,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,9.0,5.0,3.0,0.9,0.5,0.3,Ambiguity,1
+5,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,6.0,3.0,7.0,0.6,0.3,0.7,Contradiction,1
+5,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,7.0,6.0,5.0,0.7,0.6,0.5,Ambiguity,1
+5,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,8.0,7.0,8.0,0.8,0.7,0.8,Ambiguity,1
+5,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,8.0,5.0,8.0,0.8,0.5,0.8,Ambiguity,1
+5,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,9.0,7.0,8.0,0.9,0.7,0.8,Ambiguity,1
+5,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,7.0,6.0,8.0,0.7,0.6,0.8,Ambiguity,1
+5,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,9.0,7.0,5.0,0.9,0.7,0.5,Ambiguity,1
+5,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,7.0,6.0,1.0,0.7,0.6,Ambiguity,1
+5,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,10.0,5.0,1.0,1.0,0.5,Ambiguity,1
+5,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,8.0,6.0,6.0,0.8,0.6,0.6,Ambiguity,1
+5,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,8.0,6.0,3.0,0.8,0.6,0.3,Ambiguity,1
+5,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),8.0,10.0,10.0,0.8,1.0,1.0,Ambiguity,1
+5,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,1.0,2.0,3.0,0.1,0.2,0.3,Ignorance,0
+5,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,9.0,7.0,1.0,0.9,0.7,Ambiguity,1
+5,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,9.0,8.0,1.0,0.9,0.8,Ambiguity,1
+5,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,9.0,10.0,8.0,0.9,1.0,0.8,Ambiguity,1
+5,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,10.0,9.0,10.0,1.0,0.9,1.0,Ambiguity,1
+5,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,8.0,9.0,9.0,0.8,0.9,0.9,Ambiguity,1
+5,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,9.0,9.0,1.0,0.9,0.9,Ambiguity,1
+5,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,9.0,9.0,9.0,0.9,0.9,0.9,Ambiguity,1
+6,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+6,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,3.0,3.0,0.9,0.3,0.3,Ignorance,1
+6,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,9.0,5.0,1.0,0.9,0.5,0.1,Ambiguity,0
+6,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+6,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+6,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+6,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,9.0,5.0,2.0,0.9,0.5,0.2,Ambiguity,1
+6,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+6,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,9.0,5.0,3.0,0.9,0.5,0.3,Ambiguity,1
+6,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,9.0,3.0,3.0,0.9,0.3,0.3,Ignorance,1
+6,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+6,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+6,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,7.0,3.0,4.0,0.7,0.3,0.4,Contradiction,1
+6,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,9.0,3.0,3.0,0.9,0.3,0.3,Ignorance,1
+6,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+6,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+6,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,9.0,3.0,2.0,0.9,0.3,0.2,Consensus,1
+6,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+6,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,9.0,3.0,2.0,0.9,0.3,0.2,Consensus,1
+6,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,7.0,4.0,5.0,0.7,0.4,0.5,Ambiguity,1
+6,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+6,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),7.0,2.0,2.0,0.7,0.2,0.2,Consensus,0
+6,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,7.0,5.0,2.0,0.7,0.5,0.2,Ambiguity,0
+6,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,9.0,3.0,2.0,0.9,0.3,0.2,Consensus,1
+6,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+6,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,9.0,3.0,3.0,0.9,0.3,0.3,Ignorance,1
+6,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,8.0,3.0,4.0,0.8,0.3,0.4,Contradiction,1
+6,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+6,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,9.0,2.0,3.0,0.9,0.2,0.3,Ignorance,1
+6,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,8.0,4.0,3.0,0.8,0.4,0.3,Ambiguity,1
+7,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,5.0,7.0,4.0,0.5,0.7,0.4,Ambiguity,0
+7,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,3.0,3.0,5.0,0.3,0.3,0.5,Ignorance,0
+7,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,4.0,5.0,5.0,0.4,0.5,0.5,Ambiguity,0
+7,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+7,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+8,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,5.0,3.0,7.0,0.5,0.3,0.7,Contradiction,1
+8,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,8.0,5.0,0.0,0.8,0.5,0.0,Ambiguity,0
+8,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,7.0,2.0,1.0,0.7,0.2,Ambiguity,1
+8,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+8,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+8,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,9.0,7.0,1.0,0.9,0.7,0.1,Ambiguity,0
+8,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,9.0,7.0,8.0,0.9,0.7,0.8,Ambiguity,1
+8,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,9.0,0.0,0.0,0.9,Ignorance,0
+8,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,2.0,3.0,7.0,0.2,0.3,0.7,Ignorance,0
+8,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,4.0,4.0,7.0,0.4,0.4,0.7,Ambiguity,1
+8,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,5.0,5.0,4.0,0.5,0.5,0.4,Ambiguity,0
+8,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,7.0,6.0,4.0,0.7,0.6,0.4,Ambiguity,1
+8,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,4.0,7.0,6.0,0.4,0.7,0.6,Ambiguity,0
+8,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,4.0,8.0,3.0,0.4,0.8,0.3,Ambiguity,0
+8,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,8.0,6.0,5.0,0.8,0.6,0.5,Ambiguity,1
+8,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,6.0,4.0,9.0,0.6,0.4,0.9,Ambiguity,1
+8,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,6.0,3.0,7.0,0.6,0.3,0.7,Contradiction,1
+8,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,2.0,7.0,2.0,0.2,0.7,0.2,Ambiguity,0
+8,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,7.0,2.0,7.0,0.7,0.2,0.7,Contradiction,1
+8,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,8.0,3.0,5.0,0.8,0.3,0.5,Contradiction,1
+8,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,6.0,8.0,6.0,0.6,0.8,0.6,Ambiguity,1
+8,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),6.0,3.0,6.0,0.6,0.3,0.6,Contradiction,1
+8,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,2.0,4.0,8.0,0.2,0.4,0.8,Ambiguity,0
+8,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,6.0,3.0,10.0,0.6,0.3,1.0,Contradiction,1
+8,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,2.0,6.0,7.0,0.2,0.6,0.7,Ambiguity,0
+8,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,6.0,3.0,5.0,0.6,0.3,0.5,Contradiction,1
+8,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,8.0,2.0,8.0,0.8,0.2,0.8,Contradiction,1
+8,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,6.0,4.0,7.0,0.6,0.4,0.7,Ambiguity,1
+8,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,5.0,8.0,2.0,0.5,0.8,0.2,Ambiguity,0
+8,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,8.0,3.0,9.0,0.8,0.3,0.9,Contradiction,1
+9,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+9,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+9,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+9,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+9,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,6.0,1.0,0.7,0.6,0.1,Ambiguity,0
+9,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,2.0,6.0,7.0,0.2,0.6,0.7,Ambiguity,0
+9,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,2.0,4.0,7.0,0.2,0.4,0.7,Ambiguity,0
+9,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+9,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,1.0,5.0,8.0,0.1,0.5,0.8,Ambiguity,0
+9,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,2.0,5.0,7.0,0.2,0.5,0.7,Ambiguity,0
+9,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+9,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+9,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+9,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+9,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,7.0,2.0,0.7,0.7,0.2,Ambiguity,0
+9,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,6.0,7.0,4.0,0.6,0.7,0.4,Ambiguity,0
+9,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,7.0,5.0,0.5,0.7,0.5,Ambiguity,0
+9,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,8.0,5.0,0.5,0.8,0.5,Ambiguity,0
+9,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,3.0,8.0,6.0,0.3,0.8,0.6,Ambiguity,0
+9,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,3.0,5.0,7.0,0.3,0.5,0.7,Ambiguity,0
+9,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,2.0,6.0,8.0,0.2,0.6,0.8,Ambiguity,0
+9,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),3.0,8.0,6.0,0.3,0.8,0.6,Ambiguity,0
+9,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,1.0,3.0,9.0,0.1,0.3,0.9,Ignorance,0
+9,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,5.0,7.0,6.0,0.5,0.7,0.6,Ambiguity,1
+9,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,6.0,7.0,5.0,0.6,0.7,0.5,Ambiguity,1
+9,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,4.0,8.0,6.0,0.4,0.8,0.6,Ambiguity,0
+9,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,4.0,9.0,5.0,0.4,0.9,0.5,Ambiguity,0
+9,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+9,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,3.0,5.0,7.0,0.3,0.5,0.7,Ambiguity,0
+9,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,0.0,1.0,10.0,0.0,0.1,1.0,Ignorance,0
+10,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+10,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+10,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+10,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+10,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,6.0,2.0,0.7,0.6,0.2,Ambiguity,0
+10,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,2.0,7.0,6.0,0.2,0.7,0.6,Ambiguity,0
+10,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,3.0,4.0,7.0,0.3,0.4,0.7,Ambiguity,0
+10,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+10,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,1.0,6.0,8.0,0.1,0.6,0.8,Ambiguity,0
+10,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,2.0,6.0,7.0,0.2,0.6,0.7,Ambiguity,0
+10,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+10,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,9.0,1.0,1.0,0.9,0.1,0.1,Consensus,0
+10,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+10,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,7.0,4.0,0.5,0.7,0.4,Ambiguity,0
+10,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,6.0,7.0,3.0,0.6,0.7,0.3,Ambiguity,0
+10,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,8.0,3.0,0.5,0.8,0.3,Ambiguity,0
+10,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,6.0,4.0,0.5,0.6,0.4,Ambiguity,0
+10,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,4.0,8.0,5.0,0.4,0.8,0.5,Ambiguity,0
+10,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,3.0,8.0,6.0,0.3,0.8,0.6,Ambiguity,0
+10,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,4.0,3.0,8.0,0.4,0.3,0.8,Contradiction,1
+10,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,3.0,6.0,7.0,0.3,0.6,0.7,Ambiguity,0
+10,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),3.0,9.0,4.0,0.3,0.9,0.4,Ambiguity,0
+10,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,2.0,4.0,8.0,0.2,0.4,0.8,Ambiguity,0
+10,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,7.0,4.0,6.0,0.7,0.4,0.6,Ambiguity,1
+10,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,6.0,5.0,3.0,0.6,0.5,0.3,Ambiguity,0
+10,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,6.0,5.0,4.0,0.6,0.5,0.4,Ambiguity,0
+10,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,7.0,4.0,0.5,0.7,0.4,Ambiguity,0
+10,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,1.0,10.0,0.0,0.1,1.0,Ignorance,0
+10,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,4.0,5.0,7.0,0.4,0.5,0.7,Ambiguity,1
+10,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,1.0,3.0,9.0,0.1,0.3,0.9,Ignorance,0
+11,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,8.0,1.0,1.0,0.8,0.1,0.1,Consensus,0
+11,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+11,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+11,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+11,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,3.0,1.0,0.7,0.3,0.1,Consensus,0
+11,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,1.0,8.0,7.0,0.1,0.8,0.7,Ambiguity,0
+11,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,1.0,6.0,7.0,0.1,0.6,0.7,Ambiguity,0
+11,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+11,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,0.0,2.0,9.0,0.0,0.2,0.9,Ignorance,0
+11,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,1.0,6.0,7.0,0.1,0.6,0.7,Ambiguity,0
+11,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+11,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+11,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+11,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,4.0,6.0,6.0,0.4,0.6,0.6,Ambiguity,0
+11,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,6.0,7.0,2.0,0.6,0.7,0.2,Ambiguity,0
+11,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,6.0,3.0,0.5,0.6,0.3,Ambiguity,0
+11,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,4.0,6.0,5.0,0.4,0.6,0.5,Ambiguity,0
+11,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,3.0,7.0,5.0,0.3,0.7,0.5,Ambiguity,0
+11,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,2.0,7.0,6.0,0.2,0.7,0.6,Ambiguity,0
+11,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,2.0,6.0,7.0,0.2,0.6,0.7,Ambiguity,0
+11,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,0.0,8.0,9.0,0.0,0.8,0.9,Ambiguity,0
+11,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),0.0,8.0,9.0,0.0,0.8,0.9,Ambiguity,0
+11,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,1.0,7.0,8.0,0.1,0.7,0.8,Ambiguity,0
+11,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,3.0,6.0,5.0,0.3,0.6,0.5,Ambiguity,0
+11,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,7.0,4.0,2.0,0.7,0.4,0.2,Ambiguity,0
+11,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,3.0,7.0,5.0,0.3,0.7,0.5,Ambiguity,0
+11,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,2.0,8.0,6.0,0.2,0.8,0.6,Ambiguity,0
+11,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+11,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,3.0,6.0,7.0,0.3,0.6,0.7,Ambiguity,0
+11,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+12,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,10.0,10.0,1.0,1.0,1.0,Ambiguity,1
+12,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+12,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,6.0,6.0,7.0,0.6,0.6,0.7,Ambiguity,1
+12,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,6.0,7.0,7.0,0.6,0.7,0.7,Ambiguity,1
+12,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,7.0,7.0,7.0,0.7,0.7,0.7,Ambiguity,1
+12,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,6.0,6.0,6.0,0.6,0.6,0.6,Ambiguity,1
+12,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+12,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,6.0,6.0,6.0,0.6,0.6,0.6,Ambiguity,1
+12,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,6.0,6.0,6.0,0.6,0.6,0.6,Ambiguity,1
+12,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,6.0,6.0,6.0,0.6,0.6,0.6,Ambiguity,1
+12,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+12,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,6.0,7.0,6.0,0.6,0.7,0.6,Ambiguity,1
+12,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,5.0,7.0,5.0,0.5,0.7,0.5,Ambiguity,0
+12,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,4.0,3.0,9.0,0.4,0.3,0.9,Contradiction,1
+12,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,3.0,1.0,4.0,0.3,0.1,0.4,Ignorance,0
+12,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,6.0,6.0,0.5,0.6,0.6,Ambiguity,1
+12,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,7.0,5.0,4.0,0.7,0.5,0.4,Ambiguity,1
+12,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,4.0,5.0,5.0,0.4,0.5,0.5,Ambiguity,0
+12,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,3.0,6.0,3.0,0.3,0.6,0.3,Ambiguity,0
+13,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,2.0,5.0,6.0,0.2,0.5,0.6,Ambiguity,0
+13,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,4.0,5.0,5.0,0.4,0.5,0.5,Ambiguity,0
+13,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,5.0,6.0,6.0,0.5,0.6,0.6,Ambiguity,1
+13,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,6.0,6.0,6.0,0.6,0.6,0.6,Ambiguity,1
+13,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,6.0,7.0,5.0,0.6,0.7,0.5,Ambiguity,1
+13,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,6.0,6.0,4.0,0.6,0.6,0.4,Ambiguity,0
+13,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,4.0,4.0,5.0,0.4,0.4,0.5,Ambiguity,0
+13,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,5.0,6.0,5.0,0.5,0.6,0.5,Ambiguity,0
+13,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,5.0,5.0,4.0,0.5,0.5,0.4,Ambiguity,0
+13,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,4.0,5.0,5.0,0.4,0.5,0.5,Ambiguity,0
+13,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+13,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,5.0,6.0,5.0,0.5,0.6,0.5,Ambiguity,0
+13,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,5.0,6.0,5.0,0.5,0.6,0.5,Ambiguity,0
+13,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,6.0,5.0,0.5,0.6,0.5,Ambiguity,0
+13,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,4.0,5.0,5.0,0.4,0.5,0.5,Ambiguity,0
+13,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,6.0,5.0,0.5,0.6,0.5,Ambiguity,0
+13,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,4.0,5.0,4.0,0.4,0.5,0.4,Ambiguity,0
+13,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,5.0,4.0,0.5,0.5,0.4,Ambiguity,0
+13,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,4.0,5.0,4.0,0.4,0.5,0.4,Ambiguity,0
+13,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,5.0,6.0,4.0,0.5,0.6,0.4,Ambiguity,0
+13,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,4.0,4.0,4.0,0.4,0.4,0.4,Ambiguity,0
+13,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),4.0,5.0,4.0,0.4,0.5,0.4,Ambiguity,0
+13,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+13,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+13,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,4.0,5.0,4.0,0.4,0.5,0.4,Ambiguity,0
+13,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,5.0,5.0,4.0,0.5,0.5,0.4,Ambiguity,0
+13,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+13,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,5.0,5.0,4.0,0.5,0.5,0.4,Ambiguity,0
+13,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,5.0,6.0,4.0,0.5,0.6,0.4,Ambiguity,0
+13,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,6.0,5.0,5.0,0.6,0.5,0.5,Ambiguity,1
+14,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,10.0,5.0,0.0,1.0,0.5,Ambiguity,0
+14,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,0.0,10.0,1.0,0.0,1.0,Contradiction,1
+14,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+14,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,8.0,2.0,2.0,0.8,0.2,0.2,Consensus,0
+14,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,8.0,3.0,3.0,0.8,0.3,0.3,Ignorance,1
+14,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,7.0,3.0,3.0,0.7,0.3,0.3,Ignorance,0
+14,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,3.0,3.0,0.7,0.3,0.3,Ignorance,0
+14,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,3.0,6.0,6.0,0.3,0.6,0.6,Ambiguity,0
+14,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,8.0,3.0,3.0,0.8,0.3,0.3,Ignorance,1
+14,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,10.0,10.0,0.0,1.0,1.0,Ambiguity,0
+14,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+14,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+15,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,5.0,5.0,1.0,0.5,0.5,Ambiguity,1
+15,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,2.0,5.0,0.9,0.2,0.5,Contradiction,1
+15,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,9.0,5.0,0.0,0.9,0.5,0.0,Ambiguity,0
+15,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+15,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+15,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,8.0,5.0,3.0,0.8,0.5,0.3,Ambiguity,1
+15,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,2.0,5.0,5.0,0.2,0.5,0.5,Ambiguity,0
+15,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+15,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,1.0,1.0,10.0,0.1,0.1,1.0,Ignorance,1
+15,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,2.0,3.0,8.0,0.2,0.3,0.8,Ignorance,0
+15,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+15,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+15,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+15,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,2.0,5.0,7.0,0.2,0.5,0.7,Ambiguity,0
+15,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,8.0,4.0,1.0,0.8,0.4,0.1,Ambiguity,0
+15,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,6.0,8.0,4.0,0.6,0.8,0.4,Ambiguity,0
+15,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,3.0,8.0,7.0,0.3,0.8,0.7,Ambiguity,0
+15,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,8.0,6.0,0.5,0.8,0.6,Ambiguity,1
+15,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,3.0,8.0,7.0,0.3,0.8,0.7,Ambiguity,0
+15,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,2.0,6.0,8.0,0.2,0.6,0.8,Ambiguity,0
+15,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,2.0,8.0,8.0,0.2,0.8,0.8,Ambiguity,0
+15,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+15,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,1.0,7.0,9.0,0.1,0.7,0.9,Ambiguity,0
+15,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,7.0,5.0,3.0,0.7,0.5,0.3,Ambiguity,0
+15,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,8.0,4.0,2.0,0.8,0.4,0.2,Ambiguity,0
+15,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,8.0,6.0,1.0,0.8,0.6,0.1,Ambiguity,0
+15,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,8.0,5.0,2.0,0.8,0.5,0.2,Ambiguity,0
+15,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,4.0,9.0,0.0,0.4,0.9,Ambiguity,0
+15,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,3.0,4.0,7.0,0.3,0.4,0.7,Ambiguity,0
+15,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,1.0,3.0,9.0,0.1,0.3,0.9,Ignorance,0
+16,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,10.0,0.0,1.0,1.0,0.0,Ambiguity,0
+16,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,10.0,3.0,0.0,1.0,0.3,0.0,Consensus,0
+16,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+16,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+17,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,6.0,0.0,1.0,0.6,0.0,Ambiguity,0
+17,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,7.0,1.0,1.0,0.7,0.1,Ambiguity,1
+17,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,6.0,0.0,1.0,0.6,0.0,Ambiguity,0
+17,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,10.0,4.0,0.0,1.0,0.4,0.0,Ambiguity,0
+17,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,10.0,5.0,1.0,1.0,0.5,0.1,Ambiguity,1
+17,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,4.0,0.0,1.0,0.4,0.0,Ambiguity,0
+17,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,10.0,5.0,1.0,1.0,0.5,0.1,Ambiguity,1
+17,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,10.0,4.0,1.0,1.0,0.4,0.1,Ambiguity,1
+17,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,10.0,4.0,2.0,1.0,0.4,0.2,Ambiguity,1
+17,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,10.0,4.0,3.0,1.0,0.4,0.3,Ambiguity,1
+17,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,4.0,2.0,1.0,0.4,0.2,Ambiguity,1
+17,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,10.0,6.0,1.0,1.0,0.6,0.1,Ambiguity,1
+17,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,10.0,5.0,2.0,1.0,0.5,0.2,Ambiguity,1
+17,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+17,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,10.0,4.0,4.0,1.0,0.4,0.4,Ambiguity,1
+17,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,5.0,1.0,1.0,0.5,0.1,Ambiguity,1
+17,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,4.0,2.0,1.0,0.4,0.2,Ambiguity,1
+17,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,10.0,5.0,2.0,1.0,0.5,0.2,Ambiguity,1
+17,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,10.0,4.0,1.0,1.0,0.4,0.1,Ambiguity,1
+17,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,10.0,5.0,2.0,1.0,0.5,0.2,Ambiguity,1
+17,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,3.0,1.0,1.0,0.3,0.1,Consensus,1
+17,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,4.0,2.0,1.0,0.4,0.2,Ambiguity,1
+18,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,9.0,3.0,1.0,0.9,0.3,0.1,Consensus,0
+18,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,1.0,1.0,0.9,0.1,0.1,Consensus,0
+18,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+18,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,2.0,1.0,1.0,0.2,0.1,Consensus,1
+18,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,3.0,2.0,0.7,0.3,0.2,Consensus,0
+18,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,3.0,6.0,4.0,0.3,0.6,0.4,Ambiguity,0
+18,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,3.0,4.0,6.0,0.3,0.4,0.6,Ambiguity,0
+18,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,1.0,9.0,0.0,0.1,0.9,Ignorance,0
+18,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,2.0,4.0,8.0,0.2,0.4,0.8,Ambiguity,0
+18,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,2.0,4.0,7.0,0.2,0.4,0.7,Ambiguity,0
+18,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+18,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+18,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,1.0,1.0,1.0,0.1,0.1,Consensus,1
+18,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,4.0,5.0,0.5,0.4,0.5,Ambiguity,0
+18,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,5.0,2.0,0.7,0.5,0.2,Ambiguity,0
+18,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,6.0,6.0,3.0,0.6,0.6,0.3,Ambiguity,0
+18,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,6.0,4.0,0.5,0.6,0.4,Ambiguity,0
+18,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,5.0,6.0,4.0,0.5,0.6,0.4,Ambiguity,0
+18,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,3.0,4.0,4.0,0.3,0.4,0.4,Ambiguity,0
+18,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,5.0,3.0,4.0,0.5,0.3,0.4,Contradiction,0
+18,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,7.0,7.0,3.0,0.7,0.7,0.3,Ambiguity,0
+18,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),5.0,4.0,4.0,0.5,0.4,0.4,Ambiguity,0
+18,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,8.0,3.0,9.0,0.8,0.3,0.9,Contradiction,1
+18,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,2.0,3.0,1.0,0.2,0.3,0.1,Ignorance,0
+18,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,1.0,3.0,4.0,0.1,0.3,0.4,Ignorance,0
+18,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,5.0,7.0,4.0,0.5,0.7,0.4,Ambiguity,0
+18,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,4.0,8.0,3.0,0.4,0.8,0.3,Ambiguity,0
+18,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,1.0,1.0,9.0,0.1,0.1,0.9,Ignorance,0
+18,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,4.0,4.0,6.0,0.4,0.4,0.6,Ambiguity,0
+18,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,1.0,2.0,9.0,0.1,0.2,0.9,Ignorance,0
+19,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,4.0,10.0,1.0,0.4,1.0,Ambiguity,1
+19,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,0.0,3.0,1.0,0.0,0.3,Ignorance,1
+19,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,3.0,3.0,1.0,0.3,0.3,Ignorance,1
+19,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,5.0,10.0,1.0,0.5,1.0,Ambiguity,1
+19,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,10.0,5.0,4.0,1.0,0.5,0.4,Ambiguity,1
+19,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,10.0,4.0,10.0,1.0,0.4,1.0,Ambiguity,1
+19,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,10.0,6.0,0.0,1.0,0.6,0.0,Ambiguity,0
+19,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,10.0,0.0,0.0,1.0,0.0,Ambiguity,0
+19,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,7.0,4.0,5.0,0.7,0.4,0.5,Ambiguity,1
+19,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,0.0,1.0,9.0,0.0,0.1,0.9,Ignorance,0
+19,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+19,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+19,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,0.0,1.0,1.0,0.0,0.1,Consensus,1
+19,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,7.0,6.0,6.0,0.7,0.6,0.6,Ambiguity,1
+19,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,4.0,5.0,2.0,0.4,0.5,0.2,Ambiguity,0
+19,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,5.0,5.0,6.0,0.5,0.5,0.6,Ambiguity,1
+19,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,6.0,6.0,5.0,0.6,0.6,0.5,Ambiguity,1
+19,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,8.0,4.0,5.0,0.8,0.4,0.5,Ambiguity,1
+19,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),7.0,5.0,5.0,0.7,0.5,0.5,Ambiguity,1
+19,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,8.0,6.0,4.0,0.8,0.6,0.4,Ambiguity,1
+19,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,6.0,5.0,5.0,0.6,0.5,0.5,Ambiguity,1
+19,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,5.0,5.0,0.5,0.5,0.5,Ambiguity,0
+19,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,6.0,4.0,6.0,0.6,0.4,0.6,Ambiguity,1
+19,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,6.0,5.0,4.0,0.6,0.5,0.4,Ambiguity,0
+19,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,7.0,2.0,4.0,0.7,0.2,0.4,Contradiction,1
+20,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,9.0,1.0,0.0,0.9,0.1,0.0,Consensus,0
+20,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+20,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+20,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+20,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,7.0,6.0,2.0,0.7,0.6,0.2,Ambiguity,0
+20,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,2.0,9.0,5.0,0.2,0.9,0.5,Ambiguity,0
+20,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,1.0,7.0,5.0,0.1,0.7,0.5,Ambiguity,0
+20,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,0.0,0.0,0.0,0.0,Ignorance,0
+20,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,1.0,4.0,8.0,0.1,0.4,0.8,Ambiguity,0
+20,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,2.0,7.0,7.0,0.2,0.7,0.7,Ambiguity,0
+20,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+20,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,9.0,2.0,1.0,0.9,0.2,0.1,Consensus,0
+20,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,1.0,2.0,1.0,0.1,0.2,Consensus,1
+20,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,4.0,6.0,5.0,0.4,0.6,0.5,Ambiguity,0
+20,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,6.0,7.0,1.0,0.6,0.7,0.1,Ambiguity,0
+20,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,5.0,7.0,2.0,0.5,0.7,0.2,Ambiguity,0
+20,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,1.0,7.0,3.0,0.1,0.7,0.3,Ambiguity,0
+20,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,6.0,8.0,5.0,0.6,0.8,0.5,Ambiguity,1
+20,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,4.0,8.0,2.0,0.4,0.8,0.2,Ambiguity,0
+20,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,1.0,7.0,8.0,0.1,0.7,0.8,Ambiguity,0
+20,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,2.0,9.0,9.0,0.2,0.9,0.9,Ambiguity,1
+20,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),2.0,9.0,8.0,0.2,0.9,0.8,Ambiguity,0
+20,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,2.0,4.0,9.0,0.2,0.4,0.9,Ambiguity,1
+20,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,9.0,7.0,2.0,0.9,0.7,0.2,Ambiguity,1
+20,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,7.0,8.0,3.0,0.7,0.8,0.3,Ambiguity,0
+20,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,7.0,7.0,7.0,0.7,0.7,0.7,Ambiguity,1
+20,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,3.0,9.0,7.0,0.3,0.9,0.7,Ambiguity,0
+20,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+20,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,3.0,7.0,7.0,0.3,0.7,0.7,Ambiguity,0
+20,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,0.0,1.0,10.0,0.0,0.1,1.0,Ignorance,0
+21,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+21,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,1.0,0.0,1.0,0.1,0.0,Consensus,0
+21,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+21,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+21,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,8.0,4.0,1.0,0.8,0.4,0.1,Ambiguity,0
+21,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,2.0,5.0,8.0,0.2,0.5,0.8,Ambiguity,0
+21,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,8.0,6.0,4.0,0.8,0.6,0.4,Ambiguity,1
+21,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,5.0,7.0,4.0,0.5,0.7,0.4,Ambiguity,0
+21,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,8.0,7.0,5.0,0.8,0.7,0.5,Ambiguity,1
+21,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,3.0,5.0,5.0,0.3,0.5,0.5,Ambiguity,0
+21,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,5.0,7.0,1.0,0.5,0.7,Ambiguity,1
+21,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,4.0,8.0,1.0,0.4,0.8,Ambiguity,1
+21,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,7.0,2.0,0.0,0.7,0.2,0.0,Consensus,0
+21,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,8.0,0.0,0.0,0.8,0.0,0.0,Consensus,0
+21,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,6.0,0.0,1.0,0.6,0.0,0.1,Consensus,0
+21,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+21,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,10.0,1.0,2.0,1.0,0.1,0.2,Consensus,1
+21,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,10.0,1.0,1.0,1.0,0.1,0.1,Consensus,1
+21,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,7.0,2.0,1.0,0.7,0.2,0.1,Consensus,0
+21,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,9.0,1.0,0.0,0.9,0.1,0.0,Consensus,0
+21,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,9.0,1.0,0.0,0.9,0.1,0.0,Consensus,0
+21,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),9.0,0.0,0.0,0.9,0.0,0.0,Consensus,0
+21,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,10.0,6.0,2.0,1.0,0.6,0.2,Ambiguity,1
+21,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+21,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+21,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,9.0,1.0,1.0,0.9,0.1,0.1,Consensus,0
+21,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,9.0,1.0,0.0,0.9,0.1,0.0,Consensus,0
+21,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,10.0,0.0,1.0,1.0,0.0,0.1,Consensus,1
+21,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,10.0,1.0,1.0,1.0,0.1,0.1,Consensus,1
+21,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,1,¿Lavarse las manos con jabon es efectivo para reducir la transmision de enfermedades infecciosas,10.0,5.0,0.0,1.0,0.5,0.0,Ambiguity,0
+22,2,¿El ejercicio fisico regular reduce el riesgo de enfermedad cardiovascular,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,3,¿Fumar tabaco aumenta significativamente el riesgo de cancer de pulmon,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,4,¿La aspirina tiene propiedades antiplaquetarias que ayudan a prevenir coagulos,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,5,¿La composicion del microbioma intestinal influye directamente en la salud mental a traves del eje intestino-cerebro,9.0,2.0,0.0,0.9,0.2,0.0,Consensus,0
+22,6,¿Existe un vinculo causal entre el consumo de edulcorantes artificiales y un mayor riesgo de cancer,9.0,2.0,2.0,0.9,0.2,0.2,Consensus,1
+22,7,¿Los adultos sanos deberian tomar suplementos multivitaminicos diarios para prevenir enfermedades cronicas,3.0,8.0,6.0,0.3,0.8,0.6,Ambiguity,0
+22,8,¿Las redes celulares 5G pueden causar directamente infecciones de COVID-19,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+22,9,¿La inversion del campo magnetico terrestre representa una amenaza inminente y directa para la salud humana,2.0,5.0,9.0,0.2,0.5,0.9,Ambiguity,1
+22,10,¿La exposicion a la luz azul de las pantallas es una causa significativa de degeneracion macular,3.0,5.0,8.0,0.3,0.5,0.8,Ambiguity,1
+22,11,¿La Declaracion Universal de los Derechos Humanos (1948) incluye el derecho a la educacion,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,12,¿El PIB de la Union Europea esta entre los mas grandes del mundo,10.0,0.0,0.0,1.0,0.0,0.0,Consensus,0
+22,13,¿La Organizacion Mundial del Comercio tiene un mecanismo de resolucion de disputas comerciales,10.0,2.0,0.0,1.0,0.2,0.0,Consensus,0
+22,14,¿La Politica Agricola Comun de la UE es eficiente para apoyar a los agricultores de pequena escala,3.0,8.0,7.0,0.3,0.8,0.7,Ambiguity,0
+22,15,¿El equilibrio geopolitico de poder cambiara significativamente debido al cambio climatico para 2050,8.0,7.0,2.0,0.8,0.7,0.2,Ambiguity,0
+22,16,¿Los bancos centrales deberian adoptar monedas digitales (CBDC) para mejorar la politica monetaria,7.0,9.0,5.0,0.7,0.9,0.5,Ambiguity,1
+22,17,¿Las sanciones economicas son una herramienta efectiva para cambiar el comportamiento de regimenes autoritarios,4.0,9.0,7.0,0.4,0.9,0.7,Ambiguity,1
+22,18,¿La arquitectura Web3 e internet descentralizado es superior al modelo centralizado actual,6.0,9.0,7.0,0.6,0.9,0.7,Ambiguity,1
+22,19,¿La arquitectura Transformer ha alcanzado sus limites fundamentales de escalabilidad para capacidades de IA,5.0,9.0,7.0,0.5,0.9,0.7,Ambiguity,1
+22,20,¿La Ley de Moore sigue vigente en su formulacion original para la densidad de transistores,3.0,6.0,9.0,0.3,0.6,0.9,Ambiguity,1
+22,21,¿La fusion nuclear ha logrado ganancia neta de energia sostenida en un reactor practico y escalable,3.0,9.0,10.0,0.3,0.9,1.0,Ambiguity,1
+22,22,¿Los sistemas actuales de IA pueden lograr inteligencia artificial general (AGI),2.0,10.0,9.0,0.2,1.0,0.9,Ambiguity,1
+22,23,¿El Metaverso se ha convertido en la plataforma principal para el trabajo diario y la interaccion social,2.0,8.0,10.0,0.2,0.8,1.0,Ambiguity,1
+22,24,¿La privacidad diferencial es una tecnica suficiente para proteger datos individuales en aprendizaje automatico,2.0,10.0,9.0,0.2,1.0,0.9,Ambiguity,1
+22,25,¿El entrenamiento de modelos grandes de IA contribuye significativamente a las emisiones globales de carbono,9.0,4.0,2.0,0.9,0.4,0.2,Ambiguity,1
+22,26,¿Las celdas de combustible de hidrogeno se convertiran en la tecnologia dominante para transporte de larga distancia,6.0,9.0,7.0,0.6,0.9,0.7,Ambiguity,1
+22,27,¿El xenotrasplante de organos de cerdo geneticamente modificados se convertira en practica medica rutinaria en 10 anos,5.0,10.0,8.0,0.5,1.0,0.8,Ambiguity,1
+22,28,¿Los antibioticos son efectivos contra infecciones virales como el resfriado comun,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0
+22,29,¿La tecnologia blockchain ha sido ampliamente adoptada para la gestion de cadenas de suministro empresariales,8.0,10.0,4.0,0.8,1.0,0.4,Ambiguity,1
+22,30,¿La computacion cuantica es capaz de romper la encriptacion RSA-2048 con el hardware actualmente disponible,0.0,0.0,10.0,0.0,0.0,1.0,Ignorance,0

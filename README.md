@@ -27,8 +27,11 @@ experiments/
   exp_uci15_benchmark.py            # 14 UCI × 5 classifiers × {Classical, Platt, Conformal, IS, NS}
   exp_uci15_statistical_tests.py    # Friedman + Nemenyi + per-classifier + Wilcoxon
   exp_uci_tif_independence.py       # UCI bootstrap T/I/F across 14 datasets (LR)
-  exp_50_hypotheses.py              # 50 causal hypotheses, 3 raters, Cohen's κ, McNemar
+  exp_expert_annotation.py          # 22 experts × 30 hypotheses study (Fleiss κ, NS vs Classical vs IS)
+  parse_expert_xlsx.py              # Optional: regenerate exp_expert_long.csv from local raw xlsx
+  exp_50_hypotheses.py              # Earlier synthetic pilot (superseded by expert study)
   gen_paper_b_figures.py            # Regenerates figures 5-8 from the CSVs
+  gen_expert_figure.py              # Fig 4: expert-study confusion matrix + method comparison
 
   # Outputs (all seeded, reproducible)
   exp1_results.csv, exp2_results.csv, exp3_results.csv, exp4_results.csv,
@@ -78,8 +81,19 @@ Each script is self-contained, seeded (`random.seed(42)` / `np.random.seed(42)`)
 | exp_uci15_benchmark.py | `exp_uci15_results.csv`, `exp_uci15_dataset_means.csv` | 14 UCI × 5 clfs: NS Cons. accuracy gain +6.4 pp vs Classical |
 | exp_uci15_statistical_tests.py | `exp_uci15_statistical_tests.csv` | Friedman χ² = 44.55, p < 10⁻⁸; NS Cons. significantly beats Classical & Platt (Wilcoxon p = 0.0015) |
 | exp_uci_tif_independence.py | `exp_uci_tif_independence_results.csv` | Bootstrap T/I/F shows strong algebraic correlations (\|r\| ≈ 0.5–0.7); independence holds only for expert T/I/F |
-| exp_50_hypotheses.py | `exp_50_hypotheses_results*.csv` | 50 hypotheses, κ ≈ 0.78: NS 88%, Classical 44%, Interval 80% (McNemar χ² = 16.96) |
+| exp_expert_annotation.py | `exp_expert_long.csv`, `exp_expert_aggregated.csv`, `exp_expert_summary.csv` | 22 experts × 30 hypotheses, 660 triplets: Fleiss κ = 0.06 (low agreement on labels), NS 83.3% CI [66, 93], Classical 30.0%, Interval 3-way 93.3%, McNemar χ² = 10.23 (p = 0.0014), paraconsistency 38.8% |
+| exp_50_hypotheses.py | `exp_50_hypotheses_results*.csv` | Earlier synthetic pilot, superseded — kept for reproducibility of draft numbers |
 | gen_paper_b_figures.py | `figures/Fig5–Fig8.png` | Figures regenerated from the CSVs |
+
+## Data provenance
+
+The expert annotation data (`experiments/exp_expert_long.csv`) contains 22 domain
+experts' (T, I, F) responses for 30 causal hypotheses, collected via a structured
+online form (Google Forms). The file is anonymized: only sequential `expert_id`
+(1..22) and `hypothesis_id` (1..30) are retained, with the original timestamps
+stripped. Raters consented to anonymous publication of their aggregated responses.
+The raw xlsx is not included in the repository; researchers with the raw file can
+regenerate the CSV with `parse_expert_xlsx.py`.
 
 ## License
 

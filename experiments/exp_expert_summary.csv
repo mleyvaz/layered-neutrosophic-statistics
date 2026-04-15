@@ -1,0 +1,15 @@
+metric,value
+n_experts,22
+n_hypotheses,30
+n_triplets,660
+r_TI,-0.3470
+r_TF,-0.5491
+r_IF,0.2371
+fleiss_kappa,0.0589
+ns_accuracy,0.8333
+classical_accuracy,0.3000
+interval_accuracy,0.9333
+mcnemar_chi2,10.2273
+mcnemar_p,1.3838e-03
+paraconsistent_count,256
+paraconsistent_pct,38.79
