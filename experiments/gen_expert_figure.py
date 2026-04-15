@@ -9,17 +9,25 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FIG_DIR = os.path.join(os.path.dirname(HERE), 'figures')
 os.makedirs(FIG_DIR, exist_ok=True)
 
-# Load aggregated results
-agg = []
-with open(os.path.join(HERE, 'exp_expert_aggregated.csv'), newline='', encoding='utf-8') as f:
-    for r in csv.DictReader(f):
-        agg.append(r)
+# Prefer quality-filtered data when available (drop-5 bottom experts)
+def _load_csv(path):
+    rows = []
+    with open(path, newline='', encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            rows.append(r)
+    return rows
 
-# Load summary
-summary = {}
-with open(os.path.join(HERE, 'exp_expert_summary.csv'), newline='', encoding='utf-8') as f:
-    for r in csv.DictReader(f):
-        summary[r['metric']] = r['value']
+filt_agg = os.path.join(HERE, 'exp_expert_filtered_aggregated.csv')
+filt_sum = os.path.join(HERE, 'exp_expert_filtered_summary.csv')
+if os.path.exists(filt_agg) and os.path.exists(filt_sum):
+    agg = _load_csv(filt_agg)
+    summary = {r['metric']: r['value'] for r in _load_csv(filt_sum)}
+    suffix = f" ({summary.get('experts_retained', '?')} experts, quality-filtered)"
+else:
+    agg = _load_csv(os.path.join(HERE, 'exp_expert_aggregated.csv'))
+    summary = {r['metric']: r['value'] for r in _load_csv(os.path.join(HERE, 'exp_expert_summary.csv'))}
+    summary['experts_retained'] = summary.get('n_experts', 22)
+    suffix = f" ({summary['experts_retained']} experts, full sample)"
 
 ZONES = ['Consensus', 'Ambiguity', 'Contradiction', 'Ignorance']
 
@@ -38,7 +46,7 @@ axes[0].set_xticklabels(ZONES, rotation=30, ha='right')
 axes[0].set_yticklabels(ZONES)
 axes[0].set_xlabel('Predicted zone (from mean T,I,F)')
 axes[0].set_ylabel('Modal zone across 22 experts (ground truth)')
-axes[0].set_title(f"A. NS confusion matrix  ({int(summary['n_hypotheses'])} hypotheses, "
+axes[0].set_title(f"A. NS confusion matrix  ({int(summary['n_hypotheses'])} hypotheses,{suffix}, "
                   f"accuracy = {float(summary['ns_accuracy'])*100:.1f}%)")
 for i in range(4):
     for j in range(4):
@@ -55,8 +63,7 @@ colors = ['#2ca02c', '#1f77b4', '#ff7f0e']
 bars = axes[1].bar(methods, [a * 100 for a in accs], color=colors)
 axes[1].set_ylabel('Accuracy (%)')
 axes[1].set_ylim(0, 100)
-axes[1].set_title(f"B. Method comparison  (n={summary['n_hypotheses']} hypotheses, "
-                  f"N={summary['n_experts']} experts)")
+axes[1].set_title(f"B. Method comparison  (n={summary['n_hypotheses']} hypotheses,{suffix})")
 axes[1].grid(axis='y', alpha=0.3)
 for bar, a in zip(bars, accs):
     axes[1].text(bar.get_x() + bar.get_width()/2, a*100 + 2,
